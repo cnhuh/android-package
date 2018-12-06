@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!--可配置定制app值得一个文件，功能与custom_strings类似，这个是直接全部替换20151015-->
+<resources>
+    <!--小米推送key-->
+    <string name="mipush_id">2882303761517876996</string>
+    <string name="mipush_key">5791787670996</string>
+    <string name="mipush_secret">O2JURBSgAstyOi1P8l4Rmg==</string>
+	<!--华为推送key-->
+    <string name="hwpush_id">100443589</string>
+    <string name="hwpush_secret">36d49e8b15cbb7c47e82932f17b4dcd9</string>
+    <!--高德地图的key -->
+    <string name="customstr_amp_key">ce816d5bf34d0f87e6c81c08f1f32039</string>
+    <!--微信分享的key -->
+    <string name="customstr_wx_key"></string>
+    <!--
+        0，表示 友盟服务端升級需配置  customstr_umen_key 参数
+        1，表示百度服务端升級 需配置 bdappidt 和 bdappkey 二个参数
+    -->
+    <integer name="update_channel">1</integer>
+    <!--友盟升级的key -->
+    <string name="customstr_umen_key">583eab916e27a40e9a000534</string>
+    <!-- 百度升级的KEY -->
+    <integer name="bdappid">8972627</integer>
+    <string name="bdappkey">REEKmETfSmYaOG7qvtKNR6dRSa9DXy6z</string>
+    <!-- 腾讯的buglyid -->
+    <string name="buglyid">51cf41ae21</string>
+</resources>

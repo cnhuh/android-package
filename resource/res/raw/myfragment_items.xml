@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <!-- 我的界面的配置 -->
+    <!--
+     show  表示是否显示该item 1表示显示，其它值表示隐藏,
+     title 界面表示的标题
+     img   显示图标
+     type  用固定值表示，打开网页链接type用9表示
+     type  ，打开服务端配置的网页链接type用12表示 -->
+    <item descript="空白" img="" show="1" title="" type="0" />
+    <item descript="头像" img="" show="1" title="头像" type="1" />
+    <item descript="空白" img="" show="1" title="" type="0" />
+    <item descript="商务电话" img="me_call" show="0" title="商务电话" type="10"/>
+    <item descript="空白" img="" show="1" title="" type="0" />
+    <item descript="我的文件" img="icon_menu_myfile" show="1" title="我的文件" type="2" />
+    <item descript="电话会议" img="me_metting" show="0" title="电话会议" type="11" />
+    <item descript="会议记录" img="icon_menu_telephonemetting" show="0" sort="0" title="会议记录" type="3" />
+
+    <item descript="空白" img="" show="1" title="" type="0" />
+    <item descript="设置" img="icon_menu_sysconfig" show="1" title="设置" type="4" />
+    <item descript="问题反馈" img="icon_menu_bugfeedback" show="0" title="问题反馈" type="7" />
+    <item descript="推荐给好友" img="icon_menu_recommend" show="0" title="推荐给好友" type="6" />
+    <item descript="空白" img="" show="1" title="" type="0" />
+    <item descript="关于" img="icon_menu_about" show="1" title="关于" type="5" />
+
+    <item descript="开发者" img="icon_menu_discover" show="0" title="开发者" type="8" />
+    <item descript="空白" img="" show="0" title="" type="0" />
+
+    <item descript="网页连接" img="icon_menu_discover" show="0" title="百度一下" type="9" url="www.baidu.com" />
+    <item descript="网页连接" img="icon_menu_discover" show="0" title="用urltyoe打开地址" type="12" url="www.baidu.com"  />
+    <item descript="空白" img="" show="1" title="" type="0" />
+    <item descript="空白" img="" show="1" title="" type="0" />
+    <item descript="空白" img="" show="1" title="" type="0" />
+</root>

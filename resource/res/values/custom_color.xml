@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chatcontent_keyword">@color/header_bg</color><!--关键词高亮-->
+    <!-- 主界面底部标签文件的颜色 pressed 按下去的颜色 normal 正常的颜色 -->
+    <color name="main_bottom_text_pressed">#1072ba</color>
+    <color name="main_bottom_text_normal">#999999</color>
+    <!-- 应用所有头部栏的标体颜色-->
+    <color name="header_title_text">@color/white</color>
+    <!-- 应用所有头部栏色颜色-->
+    <color name="header_bg">#0079FF</color>
+    <!-- 创建组织协议、发起聊天等字体的颜色-->
+    <color name="btn_theme_bg_normal">#0079FF</color>
+    <color name="btn_theme_bg_pressed">#cc0079FF</color>
+    <color name="btn_theme_bg_disenable">#aaaaaa</color>
+    <!--下载进度条的色值和文字的色值 -->
+    <color name="number_progress_bar_text_color">@color/header_bg</color>
+    <color name="number_progress_bar_reached_color">@color/header_bg</color>
+    <!-- 消息界面头部搜索框取消按钮的字体颜色颜色-->
+    <color name="search_cancel_btn_pressed">@color/theme_text_pressed_color</color>
+    <color name="search_cancel_btn_normal">@color/theme_text_color</color>
+    <!--取消按钮的颜色 -->
+    <color name="dialog_cancel_text_color">@color/header_bg</color>
+    <!--通讯录拼音检索边栏默认颜色 -->
+    <color name="color_showBg_0">#00000000</color>
+    <!--//通讯录拼音检索边栏按下及显示颜色 -->
+    <color name="color_showBg_1">#00000000</color>
+    <!--通讯录拼音检索边栏文字按下及显示颜色 -->
+    <color name="color_showtext_1">#DEDEDE</color>
+    <color name="theme_text_color">#0079FF</color>
+
+    <!--聊天界面高亮的文字色值 -->
+    <color name="chat_highlight_text_color">#0079FF</color>
+    <color name="theme_text_pressed_color">#cc0079FF</color>
+    <color name="theme_text_disable_color">#999999</color>
+    <!-- 我的文件头部状态栏的radiobtn字体颜色定义 -->
+    <color name="header_radio_btn_text_pressed">#fff2f2f2</color>
+    <color name="header_radio_btn_text_normal">@color/header_bg</color>
+    <color name="header_radio_btn_text_checked">#fff2f2f2</color>
+
+    <!--UI新规范自定义颜色-->
+    <!--状态栏颜色-->
+    <color name="status_bar_gray">#C7C7C7</color>
+    <!--头部背景颜色-->
+    <color name="header_bg_color">#f8f8f8</color>
+    <!--头部字体颜色及按下颜色-->
+    <color name="header_words_color">#333333</color>
+    <color name="header_words_press_color">#cc333333</color>
+    <!--头部二级标题颜色-->
+    <color name="header_support_title_color">#999999</color>
+    <!--SwitchButton选中颜色-->
+    <color name="switchbtn_checked_color">#4cd964</color>
+
+    <!--品牌色-->
+    <color name="brand_color_1072ba">#1072ba</color>
+    <color name="brand_color_1072ba_press">#cc1072ba</color>
+    <!--辅助色-->
+    <color name="support_color_45abff">#45abff</color>
+    <color name="support_color_ffaa48">#ffaa48</color>
+    <color name="support_color_6cce63">#6cce63</color>
+    <color name="support_color_ffd648">#ffd648</color>
+    <color name="support_color_dddddd">#dddddd</color>
+    <!--背景色-->
+    <color name="bg_color_f8f8f8">#f8f8f8</color>
+	<color name="bg_color_f8f8f8_press">#ccf8f8f8</color>
+    <color name="bg_color_efefef">#efefef</color>
+    <color name="bg_color_ffffff">#ffffff</color>
+    <!--线条色-->
+    <color name="line_color_e3e3e3">#e3e3e3</color>
+    <color name="line_color_b2b2b2">#b2b2b2</color>
+    <!--控件色-->
+    <color name="widget_color_0079ff">#0079ff</color>
+    <color name="widget_color_0079ff_press">#cc0079ff</color>
+    <color name="widget_color_45abff">#45abff</color>
+
+    <color name="widget_color_4cd964">#4cd964</color>
+    <color name="widget_color_4cd964_press">#cc4cd964</color>
+
+    <color name="widget_color_ff5e5e">#ff5e5e</color>
+    <color name="widget_color_ff5e5e_press">#ccff5e5e</color>
+    <color name="widget_color_ffffff">#ffffff</color>
+    <color name="widget_color_ffffff_press">#ccffffff</color>
+    <color name="widget_color_bbbbbb">#bbbbbb</color>
+    <!--文字色-->
+    <color name="words_color_333333">#333333</color>
+    <color name="words_color_666666">#666666</color>
+    <color name="words_color_999999">#999999</color>
+</resources>

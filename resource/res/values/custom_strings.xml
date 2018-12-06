@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">新疆网信通</string>
+    <string name="simba_call">新疆网信通呼叫</string>
+    <string name="simbanumber_search_prompt">　　注:新疆网信通号可以在设置界面中找到</string>
+    <string name="invite_simba">邀请加入新疆网信通</string>
+    <string name="in_setting_the_time_period_of_no_longer_remind_simba_news">在设定的时间段内，消息不再提醒</string>
+    <string name="please_enter_the_simba_number_or_cellphone_number_query">请输入手机号/ID</string>
+    <string name="through_the_xx_call">通过新疆网信通呼叫</string>
+    <string name="simba_group_is_people_chat_service">新疆网信通群组是多人聊天交流服务,</string>
+    <string name="simba">新疆网信通</string>
+    <string name="water_mark_logo">新疆网信通</string>
+    <!-- Url启动安卓客户端的标签 -->
+    <string name="audiotone">新疆网信通</string>
+    <string name="simba_number">新疆网信通号码</string>
+    <string name="send_to_simbauser">发送给同事</string>
+
+    <!-- 邀请短信内容 -->
+    <string name="sms_content">只要能上网，在世界任何地方，手机之间互拨电话、发短信都免费，组织内部管理也很好用，电脑版本还可以面对面高清视频，下载地址：http://110.157.240.13:10130/index.html </string>
+    <!-- ussd信息 -->
+    <string name="ussd_content_call">我是%s，正通过新疆网信通给您去电，请接听【新疆网信通统一通信】</string>
+    <string name="ussd_content_telemeeting">我是%s，正通过新疆网信通发起电话会议，请接听【新疆网信通统一通信】</string>
+    <string name="simbaID">ID</string>
+    <string name="login_ipput_simbaID_hint">请输入手机号码/ID</string>
+    <string name="file_tips">无需数据线，与电脑方便的传输文件。</string>
+    <string name="user_help">新疆网信通办公秘书</string>
+    <string name="user_help_detail">不仅仅是及时通讯，新疆网信通为您做得更多…</string>
+    <string name="big_number_explain">本号码是您的专属联通商务虚拟号，作为“商务电话”拨出的显示号码，由中国联通官方提供通话服务，高清稳定。</string>
+    <string name="login_problem_change_mobile">更换绑定手机</string>
+    <string name="login_problem_forgot_user">忘记用户名</string>
+    <string name="login_problem_unbind_mobile">解除绑定手机</string>
+    <string name="login_problem_change_mobile_url">http://simba.pro/</string>
+    <string name="login_problem_forgot_user_url">http://simba.pro/</string>
+    <string name="login_problem_unbind_mobile_url">http://simba.pro/</string>
+    <string name="free_phone">云电话</string>
+    <string name="free_message">发消息</string>
+    <string name="create_org">创建组织</string>
+    <string name="create_org_detail_1">工作从来就不是一个人的孤单</string>
+    <string name="create_org_detail_2">必须是一群人的狂欢</string>
+    <string name="join_org">加入组织</string>
+    <string name="header_search_tv">搜索名字、拼音、手机号</string>
+    <string name="business_phone">商务电话</string>
+    <string name="business_phone1">语音对话</string>
+    <string name="business_phone2">视频通话</string>
+    <string name="business_phone3">电话会议</string>
+    <string name="business_phone4">普通电话</string>
+    <!-- 未读颜色 -->
+    <string name="unread_color">#0079ff</string>
+    <string name="simba_sharebutton_contact">分享给新疆网信通联系人</string>
+    
+    <!--Simba办公秘书-->
+    <string name="simba_secretary">新疆网信通办公秘书</string>
+    <string name="simba_user_guide">新手入门指引</string>
+    <string name="simba_user_guide_content">欢迎使用APP。新用户必备指引，快速了解功能和操作，点击开始学习吧。</string>
+    <string name="simba_common_problem">【常见问题】如何保证手机及时收到消息？</string>
+    <string name="simba_common_problem_content">轻松设置Android手机和苹果手机，让你的手机及时收到新消息。</string>
+    <string name="file_assistant">文件传输助手</string>
+	    <!--同事圈 名称 替换 -->
+    <string name="tsq_name">同事圈</string>
+    <string name="tsq_empty_content_weibo">您的同事圈还没有内容哦</string>
+    <string name="simba_sharebutton_circle">分享到同事圈</string>
+
+    <string name="org_group_type_name">我的部门群</string>
+    <string name="create_group_type_name">我创建的群</string>
+    <string name="add_group_type_name">我加入的群</string>
+
+    <string name="verify_help_text">1、可能时通信网络异常引起，可以尝试重启手机\n2、可能手机设置了黑名单，查看路径: 手机设置-信息-黑名单\n3、可能安装了一些安全或者助手软件对验证码或者电话进行了拦截，需要自检安全软件设置\n4、可以将SIM卡换到其他手机上测试\n5、可以联系手机号码运营商进行咨询</string>
+    <string name="initiate_meeting">发起会议邀请</string>
+    <string name="your_balance_is_insufficient">余额不足</string>
+
+    <string name="my_fragment_head_portrait">头像</string>
+    <string name="my_fragment_business_calls">保密分机</string>
+    <string name="my_fragment_files">我的文件</string>
+    <string name="my_fragment_teleconference">电话会议</string>
+    <string name="my_fragment_minutes_of_the_meeting">会议记录</string>
+    <string name="my_fragment_associates">同事圈</string>
+    <string name="my_fragment_setting">设置</string>
+    <string name="my_fragment_problem_feedback">问题反馈</string>
+    <string name="my_fragment_recommend_a_friend">推荐给好友</string>
+    <string name="my_fragment_about">关于</string>
+    <string name="my_fragment_topic">话题</string>
+    <string name="my_fragment_developer">开发者</string>
+    <string name="my_fragment_do_bai_du">百度一下</string>
+    <string name="my_fragment_do_open_url_address">用urltype打开地址</string>
+
+    <string name="could_is_simbaid">s%可能是一个电话号码或者新疆网信通号，你可以</string>
+	
+	<string name="usernodeview_setmyDevicecomponent_text1">无需数据线，与电脑方便的传输文件。</string>
+    <string name="sound_close_prompt_remind">若关闭，当收到新疆网信通新消息时，通知提示将不显示发送人和内容摘要。</string>
+    <string name="sound_set_up_a_sound_or_vibration">当新疆网信通在运行时，你可以设置是否需要声音或震动。</string>
+    <string name="fragment_authentication_succee_you_account">您的新疆网信通登录帐号:</string>
+</resources>

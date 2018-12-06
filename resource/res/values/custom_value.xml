@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--可配置定制app值得一个文件，功能与custom_strings类似，这个是直接全部替换20151015-->
+<resources>
+    <!--自定义App应用载入URL地址 -->
+    <bool name="is_customer_appview_loadurl">false</bool>
+    <string name="customer_str_appview_filename">mobileAppCenter</string>
+    <string name="customer_appview_loadurl">file:///android_asset/demo.html</string>
+    <string name="customer_appview_loadurl_40">file:///android_asset/mobileAppCenter/index.html</string>
+    <!-- 底部h5 模块的配置信息 -->
+    <string name="main_activity_h5">开发者</string>
+    <string name="customer_str_h5_filename">mobileInterface</string>
+    <string name="custom_str_h5_url">file:///android_asset/demomui.html</string>
+    <bool name="customer_bool_h5_isLocal">true</bool>
+    <string name="main_activity_app">工作台</string>
+    <string name="main_activity_contact">联系人</string>
+    <string name="main_activity_my">我</string>
+    <string name="main_activity_h5plus">华小秘</string>
+    <string name="main_activity_discover">发现</string>
+    <string name="dialog">消息</string>
+    <string name="receive_msg">收取中...</string>
+    <!-- 主界面底部标签排序 1消息 3联系人 4应用 5发现 6 h5页面 7我的-->
+    <string name="main_bottom_tag_ordre">1|3|4|7</string>
+    <!-- 应用界面是否显示右上角的加号,Simba V8默认改为隐藏 -->
+    <bool name="is_show_cutomer_popupmenu">false</bool>
+    <string name="wx_tuijian_url">http://www.isimba.cn</string>
+    <string name="wx_tuijian_title">新疆网信通:组织内部沟通协作平台</string>
+    <string name="wx_tuijian_content">除了沟通，还能方便的发起会议以及轻OA的协同办公</string>
+    <!--是否需要引导页-->
+    <string name="customstr_isNeedGuide">true</string>
+    <!--是否需要注册页-->
+    <string name="customstr_isNeedRegisterUI">true</string>
+    <!--是否需要登录设置-->
+    <string name="customstr_isNeedLoginSet">true</string>
+    <!-- 是否需要微信登录-->
+    <bool name="isNeedWechatlogin">false</bool>
+    <string name="customstr_maintitle_color">#ffffff</string>
+    <!--设置client mid-->
+    <string name="customstr_client_sid">SIMBA_AUDIOTONE</string>
+    <!--服务器地址-->
+	<string name="customstr_lgs_serverUrl">10.20.10.146:10086</string>
+    <string name="customstr_ims_serverUrl"></string>
+    <!--版权信息-->
+    <string name="copyright">Copyright©2016-2018 新疆网信通.All Rights Reserved</string>
+    <!--客户端版本描述 -->
+    <string name="app_version_name">6.5.0</string>
+    <!--客户端版本对应数字 升级需往上加 -->
+    <integer name="app_version_code">230</integer>
+    <!--notify_flag为0时，表示要得到状态广播，为1时不需要状态广播。-->
+    <integer name="notify_flag">0</integer>
+    <string name="yizheng_login_server_url">http://bpm.conbagroup.com:8003/bpm/CheckAD.ashx</string>
+    <string name="yizheng_login_default_password">8888@aot</string>
+    <!-- 0，默认表示Im登录,1表示易正的登录 -->
+    <integer name="login_mode">0</integer>
+    <!-- 0，默认显示创建/离开组织，1 隐藏创建/离开组织-->
+    <integer name="showLeaveOrCreate">1</integer>
+    <!--每次登录是否都要更新组织默认更新，华通设置为false不更新 -->
+    <bool name="is_need_update_enters">true</bool>
+    <!-- 是否需要显示用户指引-->
+    <bool name="is_show_user_help">true</bool>
+    <!--是否需要显示常见问题-->
+    <bool name="is_show_normal_problem">true</bool>
+    <!--是否需要朋友圈推荐-->
+    <bool name="is_need_wxf_recommend">false</bool>
+    <!--是否需要微信分享-->
+    <bool name="is_need_wechat_recommend">false</bool>
+    <!--是否需要double类型的地理位置-->
+    <bool name="is_need_double_location">true</bool>
+    <!--登录遇到问题dialog是否显示通过手机找回密码-->
+    <bool name="is_show_find_pwd_by_mobile">true</bool>
+    <!--登录遇到问题dialog是否显示更换绑定手机号码-->
+    <bool name="is_show_change_mobile">false</bool>
+    <!--登录遇到问题dialog是否显示忘记用户名-->
+    <bool name="is_show_forgot_username">false</bool>
+    <!--登录遇到问题dialog是否显示解绑手机号码-->
+    <bool name="is_show_unbind_mobile">false</bool>
+    <!--是否需要显示短信登录-->
+    <bool name="isNeedSMSLogin">true</bool>
+    <!--是否显示加入组织-->
+    <bool name="show_join_org">false</bool>
+    <!--用户资料界面是否显示绑定手机号-->
+    <bool name="show_userinfo_phone">true</bool>
+    <!--设置界面是否显示绑定手机入口-->
+    <bool name="show_set_bind_phone">true</bool>
+    <!--设置界面是否显示修改密码入口-->
+    <bool name="show_set_change_pwd">true</bool>
+    <!--电话会议人数限制-->
+    <integer name="limit_tm_members">32</integer>
+    <!--群资料投票是否显示-->
+    <bool name="show_group_vote">false</bool>
+    <!--群资料作业是否显示-->
+    <bool name="show_group_homework">false</bool>
+    <!--群资料相册是否显示-->
+    <bool name="show_group_album">false</bool>
+    <!--是否系统浏览器打开推送消息详情-->
+    <bool name="is_system_explorer_open_busi_detail">false</bool>
+    <!--电话会议入口配置-->
+    <bool name="is_show_teleconference">false</bool>
+    <!-- 是否允许创建相同的讨论组-->
+    <bool name="create_the_same_discussion">false</bool>
+    <!--应用页面允许刷新-->
+    <bool name="app_fragment_reload">true</bool>
+    <!--是否需要弹出完善用户信息窗口-->
+    <bool name="is_need_improve_userinfo">true</bool>
+    <!--是否需要开启微信分享-->
+    <bool name="user_wx_share">false</bool>
+    <!--是否需要开启同事圈-->
+    <bool name="tsq_is_online">false</bool>
+    <!--是否载入手机通讯录-->
+    <bool name="is_load_phone_contact">true</bool>
+    <!-- 是否显示商务电话-->
+    <bool name="is_show_menu_business_phone">true</bool>
+    <!--是否显示字体大小设置-->
+    <bool name="is_show_fontsize_set">true</bool>
+    <!--获取同步消息的最大个数 ,默认500条-->
+    <integer name="obtain_sync_msg_max_count">500</integer>
+
+    <!-- 是否显示为默认的闪图 -->
+    <bool name="is_old_splash_image">false</bool>
+    <!--是否显示联系人界面的通讯录按钮-->
+    <bool name="is_show_contacts_btn">true</bool>
+
+    <!--用户自主创建的最多组织数量-->
+    <integer name="create_enter_count">5</integer>
+    <!--用户自主最多可加入组织数量-->
+    <integer name="join_enter_count">50</integer>
+    <!--用户可创建的普通群，内部群的总数量-->
+    <integer name="create_group_count">100</integer>
+    <!--获取会话列表的最大值-->
+    <integer name="get_session_max">500</integer>
+    <!--用户最多能够支持的好友数量-->
+    <integer name="friend_count">1000</integer>
+    <!--群管理员的最大数量-->
+    <integer name="group_admin_max">15</integer>
+    <!--群成员的最大数量-->
+    <integer name="group_members_max">999</integer>
+    <!--单个组织下所有的部门总数-->
+    <integer name="org_depart_branch_max">10000</integer>
+    <!--单部门下的最多子部门数量-->
+    <integer name="depart_branch_max">1000</integer>
+    <!--部门最大层级（扣除顶级的组织名称层级）-->
+    <integer name="depart_floor_max">10</integer>
+    <!--单部门最多用户数(单部门，不包含子部门)-->
+    <integer name="depart_member_count">500</integer>
+    <!--单个组织最多用户数-->
+    <integer name="org_member_count">10000</integer>
+    <!--组织人数超出限制提示-->
+    <string name="org_member_limit_text">本次邀请将超出本组织总人数限制，如需扩容请通过咨询了解详情。</string>
+    <!--客服电话-->
+    <string name="customer_service_phone">185-0101-9595</string>
+    <!--消息发送测试人数-->
+    <integer name="send_msg_test_members">100</integer>
+    <!--消息发送测试内容-->
+    <string name="send_msg_test_content">send test message</string>
+    <!--是否显示截屏提示-->
+    <bool name="is_show_screen_shot">false</bool>
+    <!--截屏提示标题-->
+    <string name="screen_shot_title_text">"提示"</string>
+    <!--截屏提示内容-->
+    <string name="screen_shot_text">"您现在使用的新疆网信通APP，涉及内部机密，截屏操作将被记录"</string>
+
+    <!--引导图资源-->
+    <integer name="guide_count">3</integer>
+	<!--是否启用交通部定制的easyclient视频播放器-->
+    <bool name="is_use_traffic_easyclient">false</bool>
+    <!--金山云定制的界面刷新-->
+    <bool name="is_JinShanYun_CustomRefresh">false</bool>
+    <!--分享菜单短信的入口-->
+    <bool name="is_show_share_sms">false</bool>
+	<!--是否允许聊天窗口截图-->
+	<bool name="is_can_screen_shot">true</bool>
+    <!--是否允许开启聊天水印-->
+    <bool name="is_open_water_mark">true</bool>
+    <!--金山云定制关闭信息报送的消息数提醒-->
+    <bool name="is_close_delivery_prompt">false</bool>
+    <!--获取同步消息的天数-->
+    <integer name="the_number_of_days_to_get_the_synchronization_message">7</integer>
+    <!--未读消息重复提醒-->
+    <bool name="is_open_unread_msg_repert_notify">false</bool>
+    <!--未读消息重复提醒的时间间隔 5分钟-->
+    <integer name="unread_msg_repert_notify">300</integer>	
+    <!--pc端在线时是否需要设置免打扰功能-->
+    <bool name="is_open_multi_device">true</bool>
+    <!-- 会话列表上 的业务通知中是否置顶 -->
+    <bool name="is_top_business_notification_center_by_message_list">false</bool>
+
+    <!-- 是否开启 引导页 -->
+    <bool name="is_open_guide_activity">true</bool>
+    <!-- 是否开启 用户自定义服务器配置功能 -->
+    <bool name="is_show_server_custom_config">false</bool>
+</resources>
